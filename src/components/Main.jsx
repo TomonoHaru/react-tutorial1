@@ -1,11 +1,10 @@
 import Gallery from "./Gallery";
-import Welcom from "./Welcom";
+import Welcome from "./Welcome";
 
 export default function Main() {
     return (
         <main>
-            <Welcom />
-
+            <Welcome />
             <Gallery />
         </main>
     );
